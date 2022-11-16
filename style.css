@@ -1,0 +1,77 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Pozicionálás */
+
+.profile-card, img {
+  width: 480px;
+  max-width: calc(100vw-20px);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.head, .content {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.profile-image {
+  margin-top: -75px;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+/* Térköz */
+
+.name-headline {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.about-me {
+  margin-bottom: 10px;
+  padding: 20px; 
+}
+
+.links {
+  margin-top: 5px;
+}
+
+body {
+  background: url('https://307047-939351-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/04/W5V2038ph_lucaRossetti.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
