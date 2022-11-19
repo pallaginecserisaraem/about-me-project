@@ -36,7 +36,7 @@ img {
 }
 
 .profile-image {
-  margin-top: -75px;
+  margin-top: -65px;
 }
 
 /* Contact links */
@@ -71,7 +71,68 @@ body {
 }
 
 .profile-card {
-  background-color: hsla(0, 0%, 100%, .5);
-  border-radius: 4px;
+  background-color: rgba(202, 179, 129, 0.635);
+  border-radius: 20px;
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Finomhangolás */
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+img {
+  filter: sepia(70%);
+}
+
+img:hover {
+  filter: sepia(50%);
+  transition: all 0.5s ease-in;
+}
+
+.name-headline {
+  font-family: "Josefin Sans";
+}
+
+h1 {
+  font-size: 50px;
+  font-variant: small-caps;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h1:hover {
+  transform: scale(1.2);
+  transition: all 1s ease-in-out
+}
+
+h3 {
+  font-size: 20px;
+}
+p {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: justify;
+}
+
+a {
+  color:rgb(70, 53, 18)
+}
+
+a:hover {
+  color:rgb(38, 29, 10)
+}
+
+h4 {
+  font-family: "Josefin Sans";
+  font-size: 15px;
 }
